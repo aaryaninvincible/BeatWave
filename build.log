@@ -1,0 +1,1910 @@
+Downloading https://services.gradle.org/distributions/gradle-9.4.1-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%..............70%.............80%.............90%.............100%
+
+Welcome to Gradle 9.4.1!
+
+Here are the highlights of this release:
+ - Java 26 support
+ - Non-class-based JVM tests
+ - Enhanced console progress bar
+
+For more details see https://docs.gradle.org/9.4.1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Calculating task graph as no cached configuration is available for tasks: assembleUniversalGmsRelease
+
+> Configure project :app
+WARNING: The option setting 'android.newDsl=false' is deprecated.
+The current default is 'true'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+WARNING: API 'applicationVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling applicationVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'testVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling testVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'unitTestVariants' is obsolete and has been replaced with 'AndroidComponentsExtension'.
+It will be removed in version 10.0 of the Android Gradle plugin.
+The legacy variant API is disabled by default in AGP 9.0, but can be re-enabled by adding 
+    android.newDsl=false
+to this project's gradle.properties file.
+For more information, see http://developer.android.com/build/r/new-dsl.
+
+To determine what is calling unitTestVariants, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+w: file:///home/runner/work/BeatWave/BeatWave/app/build.gradle.kts:39:1: 'fun Project.android(configure: Action<BaseAppModuleExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.ApplicationExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :artistvideo
+w: file:///home/runner/work/BeatWave/BeatWave/artistvideo/build.gradle.kts:7:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :betterlyrics
+w: file:///home/runner/work/BeatWave/BeatWave/betterlyrics/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :innertube
+w: file:///home/runner/work/BeatWave/BeatWave/innertube/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :jiosaavn
+w: file:///home/runner/work/BeatWave/BeatWave/jiosaavn/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :kizzy
+w: file:///home/runner/work/BeatWave/BeatWave/kizzy/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :kugou
+w: file:///home/runner/work/BeatWave/BeatWave/kugou/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :lastfm
+w: file:///home/runner/work/BeatWave/BeatWave/lastfm/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :lrclib
+w: file:///home/runner/work/BeatWave/BeatWave/lrclib/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :musixmatchlyrics
+w: file:///home/runner/work/BeatWave/BeatWave/musixmatchlyrics/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :paxsenixlyrics
+w: file:///home/runner/work/BeatWave/BeatWave/paxsenixlyrics/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :shazamkit
+w: file:///home/runner/work/BeatWave/BeatWave/shazamkit/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :simpmusic
+w: file:///home/runner/work/BeatWave/BeatWave/simpmusic/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :spine
+w: file:///home/runner/work/BeatWave/BeatWave/spine/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :spotify
+w: file:///home/runner/work/BeatWave/BeatWave/spotify/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Configure project :youlyplus
+w: file:///home/runner/work/BeatWave/BeatWave/youlyplus/build.gradle.kts:6:1: 'fun Project.android(configure: Action<LibraryExtension>): Unit' is deprecated. Replaced by com.android.build.api.dsl.LibraryExtension.
+This class is not used for the public extensions in AGP when android.newDsl=true, which is the default in AGP 9.0, and will be removed in AGP 10.0.
+
+> Task :applecanvas:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :canvas:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :vivimusiccanvas:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :applecanvas:processResources NO-SOURCE
+> Task :canvas:processResources NO-SOURCE
+> Task :app:preBuild UP-TO-DATE
+> Task :artistvideo:preBuild UP-TO-DATE
+> Task :app:preUniversalGmsReleaseBuild UP-TO-DATE
+> Task :vivimusiccanvas:processResources NO-SOURCE
+> Task :betterlyrics:preBuild UP-TO-DATE
+> Task :betterlyrics:preReleaseBuild UP-TO-DATE
+> Task :artistvideo:preReleaseBuild UP-TO-DATE
+> Task :app:mergeUniversalGmsReleaseJniLibFolders
+> Task :innertube:preBuild UP-TO-DATE
+> Task :innertube:preReleaseBuild UP-TO-DATE
+> Task :betterlyrics:mergeReleaseJniLibFolders
+> Task :artistvideo:mergeReleaseJniLibFolders
+> Task :betterlyrics:mergeReleaseNativeLibs NO-SOURCE
+> Task :artistvideo:mergeReleaseNativeLibs NO-SOURCE
+> Task :innertube:mergeReleaseJniLibFolders
+> Task :innertube:mergeReleaseNativeLibs NO-SOURCE
+> Task :betterlyrics:copyReleaseJniLibsProjectOnly
+> Task :jiosaavn:preBuild UP-TO-DATE
+> Task :jiosaavn:preReleaseBuild UP-TO-DATE
+> Task :innertube:copyReleaseJniLibsProjectOnly
+> Task :kizzy:preBuild UP-TO-DATE
+> Task :kizzy:preReleaseBuild UP-TO-DATE
+> Task :artistvideo:copyReleaseJniLibsProjectOnly
+> Task :kugou:preBuild UP-TO-DATE
+> Task :kugou:preReleaseBuild UP-TO-DATE
+> Task :kizzy:mergeReleaseJniLibFolders
+> Task :kugou:mergeReleaseJniLibFolders
+> Task :jiosaavn:mergeReleaseJniLibFolders
+> Task :kugou:mergeReleaseNativeLibs NO-SOURCE
+> Task :jiosaavn:mergeReleaseNativeLibs NO-SOURCE
+> Task :kizzy:mergeReleaseNativeLibs NO-SOURCE
+> Task :jiosaavn:copyReleaseJniLibsProjectOnly
+> Task :lastfm:preBuild UP-TO-DATE
+> Task :kugou:copyReleaseJniLibsProjectOnly
+> Task :kizzy:copyReleaseJniLibsProjectOnly
+> Task :lastfm:preReleaseBuild UP-TO-DATE
+> Task :lrclib:preBuild UP-TO-DATE
+> Task :lrclib:preReleaseBuild UP-TO-DATE
+> Task :musixmatchlyrics:preBuild UP-TO-DATE
+> Task :musixmatchlyrics:preReleaseBuild UP-TO-DATE
+> Task :lastfm:mergeReleaseJniLibFolders
+> Task :lastfm:mergeReleaseNativeLibs NO-SOURCE
+> Task :lrclib:mergeReleaseJniLibFolders
+> Task :lrclib:mergeReleaseNativeLibs NO-SOURCE
+> Task :musixmatchlyrics:mergeReleaseJniLibFolders
+> Task :lastfm:copyReleaseJniLibsProjectOnly
+> Task :musixmatchlyrics:mergeReleaseNativeLibs NO-SOURCE
+> Task :paxsenixlyrics:preBuild UP-TO-DATE
+> Task :paxsenixlyrics:preReleaseBuild UP-TO-DATE
+> Task :lrclib:copyReleaseJniLibsProjectOnly
+> Task :shazamkit:preBuild UP-TO-DATE
+> Task :shazamkit:preReleaseBuild UP-TO-DATE
+> Task :musixmatchlyrics:copyReleaseJniLibsProjectOnly
+> Task :simpmusic:preBuild UP-TO-DATE
+> Task :simpmusic:preReleaseBuild UP-TO-DATE
+> Task :paxsenixlyrics:mergeReleaseJniLibFolders
+> Task :shazamkit:mergeReleaseJniLibFolders
+> Task :paxsenixlyrics:mergeReleaseNativeLibs NO-SOURCE
+> Task :simpmusic:mergeReleaseJniLibFolders
+> Task :shazamkit:mergeReleaseNativeLibs NO-SOURCE
+> Task :simpmusic:mergeReleaseNativeLibs NO-SOURCE
+> Task :paxsenixlyrics:copyReleaseJniLibsProjectOnly
+> Task :spine:preBuild UP-TO-DATE
+> Task :spine:preReleaseBuild UP-TO-DATE
+> Task :shazamkit:copyReleaseJniLibsProjectOnly
+> Task :spotify:preBuild UP-TO-DATE
+> Task :spotify:preReleaseBuild UP-TO-DATE
+> Task :simpmusic:copyReleaseJniLibsProjectOnly
+> Task :youlyplus:preBuild UP-TO-DATE
+> Task :youlyplus:preReleaseBuild UP-TO-DATE
+> Task :spine:mergeReleaseJniLibFolders
+> Task :spotify:mergeReleaseJniLibFolders
+> Task :spine:mergeReleaseNativeLibs NO-SOURCE
+> Task :youlyplus:mergeReleaseJniLibFolders
+> Task :youlyplus:mergeReleaseNativeLibs NO-SOURCE
+> Task :spotify:mergeReleaseNativeLibs NO-SOURCE
+> Task :spine:copyReleaseJniLibsProjectOnly
+> Task :youlyplus:copyReleaseJniLibsProjectOnly
+> Task :spotify:copyReleaseJniLibsProjectOnly
+> Task :artistvideo:prepareReleaseArtProfile
+> Task :betterlyrics:prepareReleaseArtProfile
+> Task :innertube:prepareReleaseArtProfile
+> Task :jiosaavn:prepareReleaseArtProfile
+> Task :kizzy:prepareReleaseArtProfile
+> Task :kugou:prepareReleaseArtProfile
+> Task :lastfm:prepareReleaseArtProfile
+> Task :lrclib:prepareReleaseArtProfile
+> Task :musixmatchlyrics:prepareReleaseArtProfile
+> Task :shazamkit:prepareReleaseArtProfile
+> Task :paxsenixlyrics:prepareReleaseArtProfile
+> Task :simpmusic:prepareReleaseArtProfile
+> Task :spine:prepareReleaseArtProfile
+> Task :spotify:prepareReleaseArtProfile
+> Task :youlyplus:prepareReleaseArtProfile
+> Task :innertube:generateReleaseResources
+> Task :innertube:processReleaseNavigationResources
+> Task :innertube:javaPreCompileRelease
+> Task :kugou:generateReleaseResources
+> Task :innertube:packageReleaseResources
+> Task :kugou:packageReleaseResources
+> Task :kugou:processReleaseNavigationResources
+> Task :innertube:parseReleaseLocalResources
+> Task :kugou:parseReleaseLocalResources
+> Task :kugou:generateReleaseRFile
+> Task :innertube:generateReleaseRFile
+> Task :app:mergeUniversalGmsReleaseArtProfile
+> Task :app:expandUniversalGmsReleaseL8ArtProfileWildcards
+> Task :kugou:javaPreCompileRelease
+> Task :lrclib:generateReleaseResources
+> Task :lrclib:packageReleaseResources
+> Task :lrclib:processReleaseNavigationResources
+> Task :lrclib:parseReleaseLocalResources
+> Task :lrclib:generateReleaseRFile
+
+> Task :canvas:compileKotlin
+w: file:///home/runner/work/BeatWave/BeatWave/canvas/src/main/kotlin/com/beatwave/music/canvas/TidalCanvasProvider.kt:175:72 Unnecessary safe call on a non-null receiver of type 'JsonObject'.
+
+> Task :lrclib:compileReleaseKotlin
+> Task :lrclib:javaPreCompileRelease
+> Task :lrclib:compileReleaseJavaWithJavac NO-SOURCE
+> Task :lrclib:mergeReleaseGeneratedProguardFiles
+> Task :kugou:compileReleaseKotlin
+> Task :kugou:compileReleaseJavaWithJavac NO-SOURCE
+> Task :kugou:mergeReleaseGeneratedProguardFiles
+> Task :canvas:compileJava NO-SOURCE
+> Task :canvas:classes UP-TO-DATE
+> Task :kugou:exportReleaseConsumerProguardFiles
+> Task :lrclib:exportReleaseConsumerProguardFiles
+> Task :kizzy:processReleaseNavigationResources
+> Task :kizzy:generateReleaseResources
+> Task :kizzy:javaPreCompileRelease
+> Task :lastfm:generateReleaseResources
+> Task :kizzy:packageReleaseResources
+> Task :lastfm:packageReleaseResources
+> Task :lastfm:processReleaseNavigationResources
+> Task :kizzy:parseReleaseLocalResources
+> Task :lastfm:parseReleaseLocalResources
+> Task :kizzy:generateReleaseRFile
+> Task :lastfm:generateReleaseRFile
+> Task :canvas:jar
+> Task :lastfm:compileReleaseKotlin
+> Task :applecanvas:compileKotlin
+> Task :applecanvas:compileJava NO-SOURCE
+> Task :applecanvas:classes UP-TO-DATE
+> Task :applecanvas:jar
+> Task :lastfm:javaPreCompileRelease
+> Task :lastfm:compileReleaseJavaWithJavac NO-SOURCE
+> Task :lastfm:mergeReleaseGeneratedProguardFiles
+> Task :lastfm:exportReleaseConsumerProguardFiles
+> Task :betterlyrics:generateReleaseResources
+> Task :betterlyrics:packageReleaseResources
+> Task :betterlyrics:processReleaseNavigationResources
+> Task :betterlyrics:parseReleaseLocalResources
+> Task :betterlyrics:generateReleaseRFile
+> Task :vivimusiccanvas:compileKotlin
+> Task :vivimusiccanvas:compileJava NO-SOURCE
+> Task :vivimusiccanvas:classes UP-TO-DATE
+> Task :vivimusiccanvas:jar
+> Task :kizzy:compileReleaseKotlin
+> Task :kizzy:compileReleaseJavaWithJavac NO-SOURCE
+> Task :kizzy:mergeReleaseGeneratedProguardFiles
+> Task :kizzy:exportReleaseConsumerProguardFiles
+> Task :betterlyrics:javaPreCompileRelease
+> Task :paxsenixlyrics:generateReleaseResources
+> Task :app:mergeUniversalGmsReleaseNativeLibs
+> Task :paxsenixlyrics:packageReleaseResources
+> Task :paxsenixlyrics:processReleaseNavigationResources
+> Task :paxsenixlyrics:parseReleaseLocalResources
+> Task :paxsenixlyrics:generateReleaseRFile
+> Task :paxsenixlyrics:javaPreCompileRelease
+
+> Task :app:stripUniversalGmsReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libquickjs.so. Run with --info option to learn more.
+
+> Task :simpmusic:generateReleaseResources
+> Task :app:extractUniversalGmsReleaseNativeSymbolTables
+> Task :app:mergeUniversalGmsReleaseNativeDebugMetadata NO-SOURCE
+> Task :simpmusic:processReleaseNavigationResources
+> Task :simpmusic:javaPreCompileRelease
+> Task :simpmusic:packageReleaseResources
+> Task :youlyplus:generateReleaseResources
+> Task :youlyplus:packageReleaseResources
+> Task :simpmusic:parseReleaseLocalResources
+> Task :youlyplus:processReleaseNavigationResources
+> Task :youlyplus:parseReleaseLocalResources
+> Task :simpmusic:generateReleaseRFile
+> Task :youlyplus:generateReleaseRFile
+> Task :betterlyrics:compileReleaseKotlin
+> Task :betterlyrics:compileReleaseJavaWithJavac NO-SOURCE
+> Task :betterlyrics:bundleLibCompileToJarRelease
+> Task :simpmusic:compileReleaseKotlin
+> Task :betterlyrics:mergeReleaseGeneratedProguardFiles
+> Task :betterlyrics:exportReleaseConsumerProguardFiles
+> Task :simpmusic:compileReleaseJavaWithJavac NO-SOURCE
+> Task :simpmusic:mergeReleaseGeneratedProguardFiles
+> Task :simpmusic:exportReleaseConsumerProguardFiles
+> Task :youlyplus:javaPreCompileRelease
+> Task :shazamkit:generateReleaseResources
+> Task :shazamkit:packageReleaseResources
+> Task :shazamkit:processReleaseNavigationResources
+> Task :shazamkit:parseReleaseLocalResources
+> Task :shazamkit:generateReleaseRFile
+> Task :youlyplus:compileReleaseKotlin
+> Task :youlyplus:compileReleaseJavaWithJavac NO-SOURCE
+> Task :youlyplus:mergeReleaseGeneratedProguardFiles
+> Task :youlyplus:exportReleaseConsumerProguardFiles
+> Task :shazamkit:javaPreCompileRelease
+> Task :artistvideo:generateReleaseResources
+> Task :artistvideo:packageReleaseResources
+> Task :artistvideo:processReleaseNavigationResources
+> Task :artistvideo:parseReleaseLocalResources
+> Task :paxsenixlyrics:compileReleaseKotlin
+> Task :paxsenixlyrics:compileReleaseJavaWithJavac NO-SOURCE
+> Task :paxsenixlyrics:mergeReleaseGeneratedProguardFiles
+> Task :paxsenixlyrics:exportReleaseConsumerProguardFiles
+> Task :artistvideo:javaPreCompileRelease
+> Task :musixmatchlyrics:generateReleaseResources
+> Task :musixmatchlyrics:packageReleaseResources
+> Task :musixmatchlyrics:processReleaseNavigationResources
+> Task :musixmatchlyrics:parseReleaseLocalResources
+> Task :artistvideo:generateReleaseRFile
+> Task :musixmatchlyrics:generateReleaseRFile
+> Task :innertube:compileReleaseKotlin
+> Task :shazamkit:compileReleaseKotlin
+> Task :shazamkit:compileReleaseJavaWithJavac NO-SOURCE
+> Task :shazamkit:mergeReleaseGeneratedProguardFiles
+> Task :shazamkit:exportReleaseConsumerProguardFiles
+> Task :musixmatchlyrics:javaPreCompileRelease
+> Task :jiosaavn:generateReleaseResources
+> Task :jiosaavn:packageReleaseResources
+> Task :jiosaavn:processReleaseNavigationResources
+> Task :jiosaavn:parseReleaseLocalResources
+> Task :jiosaavn:generateReleaseRFile
+> Task :musixmatchlyrics:compileReleaseKotlin
+> Task :musixmatchlyrics:compileReleaseJavaWithJavac NO-SOURCE
+> Task :musixmatchlyrics:mergeReleaseGeneratedProguardFiles
+> Task :musixmatchlyrics:exportReleaseConsumerProguardFiles
+> Task :jiosaavn:javaPreCompileRelease
+> Task :spotify:generateReleaseResources
+> Task :spotify:packageReleaseResources
+> Task :spotify:processReleaseNavigationResources
+> Task :spotify:parseReleaseLocalResources
+> Task :spotify:generateReleaseRFile
+> Task :jiosaavn:compileReleaseKotlin
+> Task :jiosaavn:compileReleaseJavaWithJavac NO-SOURCE
+> Task :jiosaavn:mergeReleaseGeneratedProguardFiles
+> Task :jiosaavn:exportReleaseConsumerProguardFiles
+> Task :spotify:javaPreCompileRelease
+> Task :spine:generateReleaseResources
+> Task :spine:packageReleaseResources
+> Task :spine:processReleaseNavigationResources
+> Task :spine:parseReleaseLocalResources
+> Task :spine:generateReleaseRFile
+> Task :artistvideo:compileReleaseKotlin
+> Task :artistvideo:compileReleaseJavaWithJavac NO-SOURCE
+> Task :artistvideo:mergeReleaseGeneratedProguardFiles
+> Task :artistvideo:exportReleaseConsumerProguardFiles
+> Task :spine:javaPreCompileRelease
+
+> Task :spine:compileReleaseKotlin
+w: file:///home/runner/work/BeatWave/BeatWave/spine/src/main/kotlin/com/music/spine/ModuleManager.kt:168:62 Unnecessary safe call on a non-null receiver of type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/spine/src/main/kotlin/com/music/spine/QuickJsExecutor.kt:366:49 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+
+> Task :spotify:compileReleaseKotlin
+> Task :spotify:compileReleaseJavaWithJavac NO-SOURCE
+> Task :spotify:mergeReleaseGeneratedProguardFiles
+> Task :spine:compileReleaseJavaWithJavac NO-SOURCE
+> Task :spine:mergeReleaseGeneratedProguardFiles
+> Task :spine:exportReleaseConsumerProguardFiles
+> Task :app:generateUniversalGmsReleaseBuildConfig
+> Task :app:protobufDummy UP-TO-DATE
+> Task :app:extractGmsProto
+> Task :artistvideo:bundleLibRuntimeToJarRelease
+> Task :artistvideo:processReleaseJavaRes
+> Task :artistvideo:createFullJarRelease
+> Task :spotify:exportReleaseConsumerProguardFiles
+> Task :betterlyrics:processReleaseJavaRes
+> Task :betterlyrics:bundleLibRuntimeToJarRelease
+> Task :jiosaavn:bundleLibRuntimeToJarRelease
+> Task :betterlyrics:createFullJarRelease
+> Task :jiosaavn:processReleaseJavaRes
+> Task :jiosaavn:createFullJarRelease
+> Task :kizzy:bundleLibRuntimeToJarRelease
+> Task :kizzy:processReleaseJavaRes
+> Task :kugou:bundleLibRuntimeToJarRelease
+> Task :kizzy:createFullJarRelease
+> Task :kugou:processReleaseJavaRes
+> Task :kugou:createFullJarRelease
+> Task :lastfm:bundleLibRuntimeToJarRelease
+> Task :lastfm:processReleaseJavaRes
+> Task :lastfm:createFullJarRelease
+> Task :lrclib:bundleLibRuntimeToJarRelease
+> Task :lrclib:processReleaseJavaRes
+> Task :musixmatchlyrics:bundleLibRuntimeToJarRelease
+> Task :lrclib:createFullJarRelease
+> Task :musixmatchlyrics:processReleaseJavaRes
+> Task :musixmatchlyrics:createFullJarRelease
+> Task :paxsenixlyrics:bundleLibRuntimeToJarRelease
+> Task :paxsenixlyrics:processReleaseJavaRes
+> Task :shazamkit:bundleLibRuntimeToJarRelease
+> Task :paxsenixlyrics:createFullJarRelease
+> Task :shazamkit:processReleaseJavaRes
+> Task :simpmusic:bundleLibRuntimeToJarRelease
+> Task :simpmusic:processReleaseJavaRes
+> Task :shazamkit:createFullJarRelease
+> Task :simpmusic:createFullJarRelease
+> Task :spine:bundleLibRuntimeToJarRelease
+> Task :spine:processReleaseJavaRes
+> Task :spotify:bundleLibRuntimeToJarRelease
+> Task :spine:createFullJarRelease
+> Task :youlyplus:bundleLibRuntimeToJarRelease
+> Task :spotify:processReleaseJavaRes
+> Task :spotify:createFullJarRelease
+> Task :youlyplus:processReleaseJavaRes
+> Task :app:extractProto
+> Task :youlyplus:createFullJarRelease
+> Task :app:extractReleaseProto
+> Task :app:extractUniversalGmsProto
+> Task :app:extractUniversalGmsReleaseProto
+> Task :app:extractUniversalProto
+> Task :app:checkUniversalGmsReleaseDuplicateClasses
+> Task :app:mapUniversalGmsReleaseSourceSetPaths
+> Task :betterlyrics:extractReleaseSupportedLocales
+> Task :artistvideo:extractReleaseSupportedLocales
+> Task :jiosaavn:extractReleaseSupportedLocales
+> Task :innertube:extractReleaseSupportedLocales
+> Task :kugou:extractReleaseSupportedLocales
+> Task :kizzy:extractReleaseSupportedLocales
+> Task :lastfm:extractReleaseSupportedLocales
+> Task :app:extractUniversalGmsReleaseSupportedLocales
+> Task :musixmatchlyrics:extractReleaseSupportedLocales
+> Task :lrclib:extractReleaseSupportedLocales
+> Task :shazamkit:extractReleaseSupportedLocales
+> Task :paxsenixlyrics:extractReleaseSupportedLocales
+> Task :simpmusic:extractReleaseSupportedLocales
+> Task :spotify:extractReleaseSupportedLocales
+> Task :youlyplus:extractReleaseSupportedLocales
+> Task :spine:extractReleaseSupportedLocales
+> Task :app:generateUniversalGmsReleaseResources
+> Task :artistvideo:bundleLibCompileToJarRelease
+> Task :app:generateUniversalGmsReleaseLocaleConfig
+> Task :app:processUniversalGmsReleaseNavigationResources
+> Task :jiosaavn:bundleLibCompileToJarRelease
+> Task :kugou:bundleLibCompileToJarRelease
+> Task :kizzy:bundleLibCompileToJarRelease
+> Task :lastfm:bundleLibCompileToJarRelease
+> Task :lrclib:bundleLibCompileToJarRelease
+> Task :paxsenixlyrics:bundleLibCompileToJarRelease
+> Task :musixmatchlyrics:bundleLibCompileToJarRelease
+> Task :shazamkit:bundleLibCompileToJarRelease
+> Task :simpmusic:bundleLibCompileToJarRelease
+> Task :spine:bundleLibCompileToJarRelease
+> Task :spotify:bundleLibCompileToJarRelease
+> Task :youlyplus:bundleLibCompileToJarRelease
+> Task :artistvideo:writeReleaseAarMetadata
+> Task :betterlyrics:writeReleaseAarMetadata
+> Task :innertube:writeReleaseAarMetadata
+> Task :jiosaavn:writeReleaseAarMetadata
+> Task :kizzy:writeReleaseAarMetadata
+> Task :kugou:writeReleaseAarMetadata
+> Task :lastfm:writeReleaseAarMetadata
+> Task :lrclib:writeReleaseAarMetadata
+> Task :musixmatchlyrics:writeReleaseAarMetadata
+> Task :paxsenixlyrics:writeReleaseAarMetadata
+> Task :shazamkit:writeReleaseAarMetadata
+> Task :simpmusic:writeReleaseAarMetadata
+> Task :spine:writeReleaseAarMetadata
+> Task :spotify:writeReleaseAarMetadata
+> Task :youlyplus:writeReleaseAarMetadata
+> Task :app:checkUniversalGmsReleaseAarMetadata
+> Task :app:compileUniversalGmsReleaseNavigationResources
+> Task :app:javaPreCompileUniversalGmsRelease
+> Task :app:createUniversalGmsReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksUniversalGmsRelease
+> Task :artistvideo:extractDeepLinksRelease
+> Task :artistvideo:processReleaseManifest
+> Task :betterlyrics:extractDeepLinksRelease
+> Task :betterlyrics:processReleaseManifest
+> Task :innertube:extractDeepLinksRelease
+> Task :innertube:processReleaseManifest
+> Task :jiosaavn:extractDeepLinksRelease
+> Task :jiosaavn:processReleaseManifest
+> Task :kizzy:extractDeepLinksRelease
+> Task :kizzy:processReleaseManifest
+> Task :kugou:extractDeepLinksRelease
+> Task :kugou:processReleaseManifest
+> Task :lastfm:extractDeepLinksRelease
+> Task :app:packageUniversalGmsReleaseResources
+> Task :lastfm:processReleaseManifest
+> Task :lrclib:extractDeepLinksRelease
+> Task :lrclib:processReleaseManifest
+> Task :musixmatchlyrics:extractDeepLinksRelease
+> Task :musixmatchlyrics:processReleaseManifest
+> Task :paxsenixlyrics:extractDeepLinksRelease
+> Task :paxsenixlyrics:processReleaseManifest
+> Task :shazamkit:extractDeepLinksRelease
+> Task :shazamkit:processReleaseManifest
+> Task :simpmusic:extractDeepLinksRelease
+> Task :simpmusic:processReleaseManifest
+> Task :spine:extractDeepLinksRelease
+> Task :spine:processReleaseManifest
+> Task :spotify:extractDeepLinksRelease
+
+> Task :spotify:processReleaseManifest
+package="com.music.spotify" found in source AndroidManifest.xml: /home/runner/work/BeatWave/BeatWave/spotify/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.music.spotify" from the source AndroidManifest.xml: /home/runner/work/BeatWave/BeatWave/spotify/src/main/AndroidManifest.xml.
+
+> Task :youlyplus:extractDeepLinksRelease
+
+> Task :youlyplus:processReleaseManifest
+package="com.music.youlyplus" found in source AndroidManifest.xml: /home/runner/work/BeatWave/BeatWave/youlyplus/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.music.youlyplus" from the source AndroidManifest.xml: /home/runner/work/BeatWave/BeatWave/youlyplus/src/main/AndroidManifest.xml.
+
+> Task :app:parseUniversalGmsReleaseLocalResources
+> Task :app:generateUniversalGmsReleaseRFile
+> Task :artistvideo:mapReleaseSourceSetPaths
+> Task :artistvideo:compileReleaseLibraryResources
+> Task :betterlyrics:mapReleaseSourceSetPaths
+> Task :betterlyrics:compileReleaseLibraryResources
+> Task :innertube:mapReleaseSourceSetPaths
+> Task :innertube:compileReleaseLibraryResources
+> Task :jiosaavn:mapReleaseSourceSetPaths
+> Task :jiosaavn:compileReleaseLibraryResources
+> Task :kizzy:mapReleaseSourceSetPaths
+> Task :kizzy:compileReleaseLibraryResources
+> Task :kugou:mapReleaseSourceSetPaths
+> Task :kugou:compileReleaseLibraryResources
+> Task :lastfm:mapReleaseSourceSetPaths
+> Task :lastfm:compileReleaseLibraryResources
+> Task :lrclib:mapReleaseSourceSetPaths
+> Task :app:processUniversalGmsReleaseMainManifest
+> Task :lrclib:compileReleaseLibraryResources
+> Task :musixmatchlyrics:mapReleaseSourceSetPaths
+> Task :musixmatchlyrics:compileReleaseLibraryResources
+> Task :paxsenixlyrics:mapReleaseSourceSetPaths
+> Task :paxsenixlyrics:compileReleaseLibraryResources
+> Task :shazamkit:mapReleaseSourceSetPaths
+> Task :shazamkit:compileReleaseLibraryResources
+> Task :simpmusic:mapReleaseSourceSetPaths
+> Task :simpmusic:compileReleaseLibraryResources
+> Task :spine:mapReleaseSourceSetPaths
+> Task :spine:compileReleaseLibraryResources
+> Task :spotify:mapReleaseSourceSetPaths
+> Task :spotify:compileReleaseLibraryResources
+> Task :youlyplus:mapReleaseSourceSetPaths
+> Task :youlyplus:compileReleaseLibraryResources
+> Task :app:extractProguardFiles
+> Task :app:mergeUniversalGmsReleaseStartupProfile
+> Task :app:generateUniversalGmsReleaseAssets UP-TO-DATE
+> Task :artistvideo:generateReleaseAssets UP-TO-DATE
+> Task :artistvideo:mergeReleaseAssets
+> Task :betterlyrics:generateReleaseAssets UP-TO-DATE
+> Task :betterlyrics:mergeReleaseAssets
+> Task :innertube:generateReleaseAssets UP-TO-DATE
+> Task :innertube:mergeReleaseAssets
+> Task :jiosaavn:generateReleaseAssets UP-TO-DATE
+> Task :jiosaavn:mergeReleaseAssets
+> Task :kizzy:generateReleaseAssets UP-TO-DATE
+> Task :kizzy:mergeReleaseAssets
+> Task :kugou:generateReleaseAssets UP-TO-DATE
+> Task :kugou:mergeReleaseAssets
+> Task :lastfm:generateReleaseAssets UP-TO-DATE
+> Task :lastfm:mergeReleaseAssets
+> Task :lrclib:generateReleaseAssets UP-TO-DATE
+> Task :lrclib:mergeReleaseAssets
+> Task :musixmatchlyrics:generateReleaseAssets UP-TO-DATE
+> Task :app:processUniversalGmsReleaseManifest
+> Task :musixmatchlyrics:mergeReleaseAssets
+> Task :paxsenixlyrics:generateReleaseAssets UP-TO-DATE
+> Task :paxsenixlyrics:mergeReleaseAssets
+> Task :shazamkit:generateReleaseAssets UP-TO-DATE
+> Task :app:processUniversalGmsReleaseManifestForPackage
+> Task :simpmusic:generateReleaseAssets UP-TO-DATE
+> Task :shazamkit:mergeReleaseAssets
+> Task :spine:generateReleaseAssets UP-TO-DATE
+> Task :simpmusic:mergeReleaseAssets
+> Task :spotify:generateReleaseAssets UP-TO-DATE
+> Task :spotify:mergeReleaseAssets
+> Task :youlyplus:generateReleaseAssets UP-TO-DATE
+> Task :spine:mergeReleaseAssets
+> Task :youlyplus:mergeReleaseAssets
+> Task :app:extractUniversalGmsReleaseVersionControlInfo
+> Task :artistvideo:extractProguardFiles
+> Task :app:mergeUniversalGmsReleaseAssets
+> Task :app:compressUniversalGmsReleaseAssets
+> Task :artistvideo:prepareLintJarForPublish
+> Task :betterlyrics:extractProguardFiles
+
+> Task :innertube:compileReleaseKotlin
+w: file:///home/runner/work/BeatWave/BeatWave/innertube/src/main/kotlin/com/music/innertube/YouTube.kt:268:32 Unnecessary safe call on a non-null receiver of type 'Tabs.Tab.TabRenderer'.
+w: file:///home/runner/work/BeatWave/BeatWave/innertube/src/main/kotlin/com/music/innertube/YouTube.kt:285:32 Unnecessary safe call on a non-null receiver of type 'Tabs.Tab.TabRenderer'.
+w: file:///home/runner/work/BeatWave/BeatWave/innertube/src/main/kotlin/com/music/innertube/pages/RelatedPage.kt:119:58 Unnecessary safe call on a non-null receiver of type 'Runs'.
+
+> Task :innertube:compileReleaseJavaWithJavac NO-SOURCE
+> Task :innertube:mergeReleaseGeneratedProguardFiles
+> Task :innertube:exportReleaseConsumerProguardFiles
+> Task :innertube:bundleLibRuntimeToJarRelease
+> Task :innertube:processReleaseJavaRes
+> Task :innertube:createFullJarRelease
+> Task :app:mergeUniversalGmsReleaseResources
+> Task :innertube:bundleLibCompileToJarRelease
+> Task :betterlyrics:generateReleaseLintModel
+> Task :app:extractIncludeUniversalGmsReleaseProto
+> Task :app:generateUniversalGmsReleaseProto
+> Task :betterlyrics:prepareLintJarForPublish
+> Task :innertube:extractProguardFiles
+> Task :innertube:generateReleaseLintModel
+> Task :innertube:prepareLintJarForPublish
+> Task :jiosaavn:extractProguardFiles
+> Task :jiosaavn:generateReleaseLintModel
+> Task :jiosaavn:prepareLintJarForPublish
+> Task :kizzy:extractProguardFiles
+> Task :kizzy:generateReleaseLintModel
+> Task :kizzy:prepareLintJarForPublish
+> Task :kugou:extractProguardFiles
+> Task :kugou:generateReleaseLintModel
+> Task :kugou:prepareLintJarForPublish
+> Task :lastfm:extractProguardFiles
+> Task :lastfm:generateReleaseLintModel
+> Task :lastfm:prepareLintJarForPublish
+> Task :lrclib:extractProguardFiles
+> Task :lrclib:generateReleaseLintModel
+> Task :lrclib:prepareLintJarForPublish
+> Task :musixmatchlyrics:extractProguardFiles
+> Task :musixmatchlyrics:generateReleaseLintModel
+> Task :musixmatchlyrics:prepareLintJarForPublish
+> Task :paxsenixlyrics:extractProguardFiles
+> Task :paxsenixlyrics:generateReleaseLintModel
+> Task :paxsenixlyrics:prepareLintJarForPublish
+> Task :shazamkit:extractProguardFiles
+> Task :shazamkit:generateReleaseLintModel
+> Task :shazamkit:prepareLintJarForPublish
+> Task :simpmusic:extractProguardFiles
+> Task :simpmusic:generateReleaseLintModel
+> Task :simpmusic:prepareLintJarForPublish
+> Task :spine:extractProguardFiles
+> Task :spine:generateReleaseLintModel
+> Task :spine:prepareLintJarForPublish
+> Task :spotify:extractProguardFiles
+> Task :spotify:generateReleaseLintModel
+> Task :spotify:prepareLintJarForPublish
+> Task :youlyplus:extractProguardFiles
+> Task :youlyplus:generateReleaseLintModel
+> Task :youlyplus:prepareLintJarForPublish
+> Task :innertube:checkReleaseAarMetadata
+> Task :innertube:stripReleaseDebugSymbols NO-SOURCE
+> Task :innertube:copyReleaseJniLibsProjectAndLocalJars
+> Task :innertube:extractDeepLinksForAarRelease
+> Task :artistvideo:generateReleaseLintModel
+> Task :innertube:mergeReleaseConsumerProguardFiles
+> Task :innertube:mergeReleaseJavaResource
+> Task :kugou:checkReleaseAarMetadata
+> Task :kugou:stripReleaseDebugSymbols NO-SOURCE
+> Task :kugou:copyReleaseJniLibsProjectAndLocalJars
+> Task :kugou:extractDeepLinksForAarRelease
+> Task :app:processUniversalGmsReleaseResources
+> Task :kugou:mergeReleaseConsumerProguardFiles
+> Task :kugou:mergeReleaseJavaResource
+> Task :lrclib:checkReleaseAarMetadata
+> Task :lrclib:stripReleaseDebugSymbols NO-SOURCE
+> Task :lrclib:copyReleaseJniLibsProjectAndLocalJars
+> Task :lrclib:extractDeepLinksForAarRelease
+> Task :lrclib:extractReleaseAnnotations
+> Task :kugou:extractReleaseAnnotations
+> Task :lrclib:mergeReleaseConsumerProguardFiles
+> Task :innertube:extractReleaseAnnotations
+> Task :kugou:syncReleaseLibJars
+> Task :kugou:bundleReleaseLocalLintAar
+> Task :kizzy:checkReleaseAarMetadata
+> Task :kizzy:stripReleaseDebugSymbols NO-SOURCE
+> Task :kizzy:copyReleaseJniLibsProjectAndLocalJars
+> Task :kizzy:extractDeepLinksForAarRelease
+> Task :lrclib:mergeReleaseJavaResource
+> Task :kizzy:extractReleaseAnnotations
+> Task :lrclib:syncReleaseLibJars
+> Task :kizzy:mergeReleaseConsumerProguardFiles
+> Task :kizzy:mergeReleaseJavaResource
+> Task :lrclib:bundleReleaseLocalLintAar
+> Task :lastfm:checkReleaseAarMetadata
+> Task :lastfm:stripReleaseDebugSymbols NO-SOURCE
+> Task :lastfm:copyReleaseJniLibsProjectAndLocalJars
+> Task :lastfm:extractDeepLinksForAarRelease
+> Task :kizzy:syncReleaseLibJars
+> Task :lastfm:extractReleaseAnnotations
+> Task :lastfm:mergeReleaseConsumerProguardFiles
+> Task :kizzy:bundleReleaseLocalLintAar
+> Task :lastfm:mergeReleaseJavaResource
+> Task :paxsenixlyrics:checkReleaseAarMetadata
+> Task :lastfm:syncReleaseLibJars
+> Task :paxsenixlyrics:stripReleaseDebugSymbols NO-SOURCE
+> Task :lastfm:bundleReleaseLocalLintAar
+> Task :paxsenixlyrics:copyReleaseJniLibsProjectAndLocalJars
+> Task :paxsenixlyrics:extractDeepLinksForAarRelease
+> Task :paxsenixlyrics:mergeReleaseConsumerProguardFiles
+> Task :paxsenixlyrics:extractReleaseAnnotations
+> Task :betterlyrics:checkReleaseAarMetadata
+> Task :paxsenixlyrics:mergeReleaseJavaResource
+> Task :betterlyrics:stripReleaseDebugSymbols NO-SOURCE
+> Task :betterlyrics:copyReleaseJniLibsProjectAndLocalJars
+> Task :betterlyrics:extractDeepLinksForAarRelease
+> Task :betterlyrics:extractReleaseAnnotations
+> Task :betterlyrics:mergeReleaseConsumerProguardFiles
+> Task :paxsenixlyrics:syncReleaseLibJars
+> Task :paxsenixlyrics:bundleReleaseLocalLintAar
+> Task :betterlyrics:mergeReleaseJavaResource
+> Task :betterlyrics:syncReleaseLibJars
+> Task :simpmusic:checkReleaseAarMetadata
+> Task :simpmusic:stripReleaseDebugSymbols NO-SOURCE
+> Task :betterlyrics:bundleReleaseLocalLintAar
+> Task :simpmusic:copyReleaseJniLibsProjectAndLocalJars
+> Task :simpmusic:extractDeepLinksForAarRelease
+> Task :simpmusic:extractReleaseAnnotations
+> Task :simpmusic:mergeReleaseConsumerProguardFiles
+> Task :youlyplus:checkReleaseAarMetadata
+> Task :simpmusic:mergeReleaseJavaResource
+> Task :youlyplus:stripReleaseDebugSymbols NO-SOURCE
+> Task :youlyplus:copyReleaseJniLibsProjectAndLocalJars
+> Task :youlyplus:extractDeepLinksForAarRelease
+> Task :simpmusic:syncReleaseLibJars
+> Task :youlyplus:extractReleaseAnnotations
+> Task :simpmusic:bundleReleaseLocalLintAar
+> Task :youlyplus:mergeReleaseConsumerProguardFiles
+> Task :youlyplus:mergeReleaseJavaResource
+> Task :shazamkit:checkReleaseAarMetadata
+> Task :shazamkit:stripReleaseDebugSymbols NO-SOURCE
+> Task :shazamkit:copyReleaseJniLibsProjectAndLocalJars
+> Task :innertube:syncReleaseLibJars
+> Task :shazamkit:extractDeepLinksForAarRelease
+> Task :innertube:bundleReleaseLocalLintAar
+> Task :shazamkit:extractReleaseAnnotations
+> Task :youlyplus:syncReleaseLibJars
+> Task :shazamkit:mergeReleaseConsumerProguardFiles
+> Task :youlyplus:bundleReleaseLocalLintAar
+> Task :shazamkit:mergeReleaseJavaResource
+> Task :shazamkit:syncReleaseLibJars
+> Task :artistvideo:stripReleaseDebugSymbols NO-SOURCE
+> Task :shazamkit:bundleReleaseLocalLintAar
+> Task :artistvideo:extractDeepLinksForAarRelease
+> Task :artistvideo:copyReleaseJniLibsProjectAndLocalJars
+> Task :artistvideo:mergeReleaseConsumerProguardFiles
+> Task :artistvideo:checkReleaseAarMetadata
+> Task :musixmatchlyrics:checkReleaseAarMetadata
+> Task :artistvideo:mergeReleaseJavaResource
+> Task :musixmatchlyrics:stripReleaseDebugSymbols NO-SOURCE
+> Task :musixmatchlyrics:copyReleaseJniLibsProjectAndLocalJars
+> Task :musixmatchlyrics:extractDeepLinksForAarRelease
+> Task :musixmatchlyrics:mergeReleaseConsumerProguardFiles
+> Task :musixmatchlyrics:mergeReleaseJavaResource
+> Task :musixmatchlyrics:extractReleaseAnnotations
+> Task :jiosaavn:checkReleaseAarMetadata
+> Task :jiosaavn:stripReleaseDebugSymbols NO-SOURCE
+> Task :jiosaavn:copyReleaseJniLibsProjectAndLocalJars
+> Task :jiosaavn:extractDeepLinksForAarRelease
+> Task :jiosaavn:extractReleaseAnnotations
+> Task :jiosaavn:mergeReleaseConsumerProguardFiles
+> Task :jiosaavn:mergeReleaseJavaResource
+> Task :musixmatchlyrics:syncReleaseLibJars
+> Task :musixmatchlyrics:bundleReleaseLocalLintAar
+> Task :jiosaavn:syncReleaseLibJars
+> Task :jiosaavn:bundleReleaseLocalLintAar
+> Task :spotify:stripReleaseDebugSymbols NO-SOURCE
+> Task :spotify:copyReleaseJniLibsProjectAndLocalJars
+> Task :spotify:extractDeepLinksForAarRelease
+> Task :spotify:checkReleaseAarMetadata
+> Task :spotify:extractReleaseAnnotations
+> Task :spotify:mergeReleaseConsumerProguardFiles
+> Task :spotify:mergeReleaseJavaResource
+> Task :spine:checkReleaseAarMetadata
+> Task :spine:stripReleaseDebugSymbols NO-SOURCE
+> Task :spine:copyReleaseJniLibsProjectAndLocalJars
+> Task :spine:extractDeepLinksForAarRelease
+> Task :spotify:syncReleaseLibJars
+> Task :spotify:bundleReleaseLocalLintAar
+> Task :spine:mergeReleaseConsumerProguardFiles
+> Task :spine:mergeReleaseJavaResource
+> Task :spine:extractReleaseAnnotations
+> Task :spine:syncReleaseLibJars
+> Task :spine:bundleReleaseLocalLintAar
+> Task :artistvideo:writeReleaseLintModelMetadata
+> Task :artistvideo:extractReleaseAnnotations
+> Task :artistvideo:syncReleaseLibJars
+> Task :artistvideo:bundleReleaseLocalLintAar
+> Task :betterlyrics:writeReleaseLintModelMetadata
+> Task :artistvideo:lintVitalAnalyzeRelease
+> Task :betterlyrics:lintVitalAnalyzeRelease
+> Task :innertube:writeReleaseLintModelMetadata
+> Task :jiosaavn:writeReleaseLintModelMetadata
+> Task :jiosaavn:lintVitalAnalyzeRelease
+> Task :kizzy:writeReleaseLintModelMetadata
+> Task :kugou:lintVitalAnalyzeRelease
+> Task :kugou:writeReleaseLintModelMetadata
+> Task :kizzy:lintVitalAnalyzeRelease
+> Task :lastfm:writeReleaseLintModelMetadata
+> Task :lastfm:lintVitalAnalyzeRelease
+> Task :lrclib:writeReleaseLintModelMetadata
+> Task :app:kspUniversalGmsReleaseKotlin
+> Task :lrclib:lintVitalAnalyzeRelease
+> Task :musixmatchlyrics:writeReleaseLintModelMetadata
+> Task :musixmatchlyrics:lintVitalAnalyzeRelease
+> Task :paxsenixlyrics:writeReleaseLintModelMetadata
+> Task :paxsenixlyrics:lintVitalAnalyzeRelease
+> Task :shazamkit:writeReleaseLintModelMetadata
+> Task :simpmusic:lintVitalAnalyzeRelease
+> Task :simpmusic:writeReleaseLintModelMetadata
+> Task :shazamkit:lintVitalAnalyzeRelease
+> Task :spine:writeReleaseLintModelMetadata
+> Task :spine:lintVitalAnalyzeRelease
+> Task :spotify:writeReleaseLintModelMetadata
+> Task :spotify:lintVitalAnalyzeRelease
+> Task :youlyplus:writeReleaseLintModelMetadata
+> Task :artistvideo:generateReleaseLintVitalModel
+> Task :betterlyrics:generateReleaseLintVitalModel
+> Task :innertube:generateReleaseLintVitalModel
+> Task :jiosaavn:generateReleaseLintVitalModel
+> Task :kizzy:generateReleaseLintVitalModel
+> Task :kugou:generateReleaseLintVitalModel
+> Task :lastfm:generateReleaseLintVitalModel
+> Task :lrclib:generateReleaseLintVitalModel
+> Task :musixmatchlyrics:generateReleaseLintVitalModel
+> Task :paxsenixlyrics:generateReleaseLintVitalModel
+> Task :shazamkit:generateReleaseLintVitalModel
+> Task :simpmusic:generateReleaseLintVitalModel
+> Task :spine:generateReleaseLintVitalModel
+> Task :spotify:generateReleaseLintVitalModel
+> Task :youlyplus:generateReleaseLintVitalModel
+> Task :app:validateSigningUniversalGmsRelease
+> Task :app:writeUniversalGmsReleaseAppMetadata
+> Task :app:writeUniversalGmsReleaseSigningConfigVersions
+> Task :youlyplus:lintVitalAnalyzeRelease
+> Task :innertube:lintVitalAnalyzeRelease
+> Task :app:compileUniversalGmsReleaseKotlin
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/MainActivity.kt:681:50 'val defaultDisplay: Display!' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/MainActivity.kt:682:56 'val defaultDisplay: Display!' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/MainActivity.kt:714:42 'val defaultDisplay: Display!' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/MainActivity.kt:1489:61 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/MainActivity.kt:3027:20 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/MainActivity.kt:3030:20 'var navigationBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/WelcomeActivity.kt:312:26 'val LocalLifecycleOwner: ProvidableCompositionLocal<LifecycleOwner>' is deprecated. Moved to lifecycle-runtime-compose library in androidx.lifecycle.compose package.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/WelcomeActivity.kt:1222:60 Redundant creation of Json format. Creating instances for each usage can be slow.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/WelcomeActivity.kt:1634:37 'var databaseEnabled: Boolean' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/WelcomeActivity.kt:1640:86 'static field REQUESTED_WITH_HEADER_ALLOW_LIST: String' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/WelcomeActivity.kt:1641:55 'static fun setRequestedWithHeaderOriginAllowList(p0: WebSettings, p1: (Mutable)Set<String!>): Unit' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/WelcomeActivity.kt:1796:37 'var databaseEnabled: Boolean' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ai/AiPlaylistModifier.kt:119:51 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/DeepLService.kt:82:49 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/MistralService.kt:156:53 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/OpenRouterService.kt:153:49 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/OpenRouterStreamingService.kt:133:49 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/OpenRouterStreamingService.kt:143:76 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:40:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:60:45 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:64:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:93:45 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:102:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:124:45 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:128:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:158:45 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:167:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:187:45 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:191:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:213:45 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:217:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:243:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:263:45 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:267:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:293:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:332:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:354:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:376:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:401:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:421:45 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/api/SupabaseService.kt:425:50 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/extensions/PlayerExt.kt:140:31 No cast needed.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/extensions/PlayerExt.kt:147:31 No cast needed.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/extensions/PlayerExt.kt:154:31 No cast needed.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/listentogether/ListenTogetherClient.kt:1429:37 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/listentogether/LocalSocketTransport.kt:101:33 'fun resolveService(p0: NsdServiceInfo!, p1: NsdManager.ResolveListener!): Unit' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/listentogether/LocalSocketTransport.kt:108:62 'var host: InetAddress!' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/playback/MusicService.kt:3517:48 Elvis operator (?:) always returns the left operand of non-nullable type 'YTPlayerUtils.PlaybackData'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/playback/MusicService.kt:3556:206 Unnecessary safe call on a non-null receiver of type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/playback/audio/DelayAudioProcessor.kt:157:9 'fun flush(): Unit' is deprecated. Deprecated in AudioProcessor.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/playback/audio/EightDAudioProcessor.kt:211:9 'fun flush(): Unit' is deprecated. Deprecated in AudioProcessor.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/playback/audio/LosslessStallWatchdogAudioProcessor.kt:166:9 'fun flush(): Unit' is deprecated. Deprecated in AudioProcessor.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/playback/audio/TrackAnalyzerAudioProcessor.kt:200:9 'fun flush(): Unit' is deprecated. Deprecated in AudioProcessor.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/BottomSheetMenu.kt:77:81 'val windowInsets: WindowInsets' is deprecated. Renamed as modalWindowInsets.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/Lyrics.kt:1251:97 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/Lyrics.kt:1296:70 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/Lyrics.kt:1353:70 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/Lyrics.kt:1400:70 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/Lyrics.kt:1456:70 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/Lyrics.kt:1523:70 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/Lyrics.kt:1577:70 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/Lyrics.kt:1592:47 Unnecessary non-null assertion (!!) on a non-null receiver of type 'List<WordTimestamp>'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/MetroLyrics.kt:842:47 Unnecessary non-null assertion (!!) on a non-null receiver of type 'MetroWordTimestamp'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/SpotifyLoginDialog.kt:131:33 'var databaseEnabled: Boolean' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/UpdaterComponents.kt:221:13 'fun ClickableText(text: AnnotatedString, modifier: Modifier = ..., style: TextStyle = ..., softWrap: Boolean = ..., overflow: TextOverflow = ..., maxLines: Int = ..., onTextLayout: (TextLayoutResult) -> Unit = ..., onClick: (Int) -> Unit): Unit' is deprecated. Use Text or BasicText and pass an AnnotatedString that contains a LinkAnnotation. Check LinkAnnotation's documentation for more details and samples.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/UpdaterComponents.kt:225:39 'static fun startActivity(p0: Context, p1: Intent, p2: Bundle?): Unit' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/backdrop/internal/Paint.kt:18:10 'fun asFrameworkPaint(): Paint' is deprecated. Use platform-specific extension to get platform reference.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/component/backdrop/internal/Paint.kt:24:10 'fun asFrameworkPaint(): Paint' is deprecated. Use platform-specific extension to get platform reference.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/menu/OldPlayerMenu.kt:646:58 Unnecessary safe call on a non-null receiver of type 'ListenTogetherManager'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/menu/PlaylistMenu.kt:682:57 Condition is always 'true'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/AppleMiniPlayer.kt:344:62 Unnecessary safe call on a non-null receiver of type 'CastConnectionHandler'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/AudioQualityBadge.kt:47:23 No cast needed.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/AudioQualityBadge.kt:103:55 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/PlaybackError.kt:87:21 'val LocalClipboardManager: ProvidableCompositionLocal<ClipboardManager>' is deprecated. Use LocalClipboard instead which supports suspend functions.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player.kt:1552:73 Unnecessary safe call on a non-null receiver of type 'CanvasArtwork'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player.kt:1552:100 Unnecessary safe call on a non-null receiver of type 'CanvasArtwork'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player.kt:1567:66 Unnecessary safe call on a non-null receiver of type 'CanvasArtwork'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player.kt:2148:54 Unnecessary safe call on a non-null receiver of type 'MediaMetadata'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player.kt:2543:45 Unnecessary safe call on a non-null receiver of type 'MediaMetadata'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player.kt:2682:83 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/PlayerV2Canvas.kt:58:48 Elvis operator (?:) always returns the left operand of non-nullable type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player_v2.kt:1161:78 'val Icons.Filled.VolumeOff: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeOff.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player_v2.kt:1161:107 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player_v2.kt:1201:44 'val Icons.Filled.VolumeMute: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeMute.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player_v2.kt:1236:48 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/Player_v2.kt:1305:124 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/UpNextSong.kt:61:39 Elvis operator (?:) always returns the left operand of non-nullable type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/UpNextSong.kt:66:42 Unnecessary safe call on a non-null receiver of type 'List<MediaMetadata.Artist>'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/customize/DiyPlayerMockup.kt:488:46 Redundant call of conversion method.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/player/customize/DiyPlayerMockup.kt:504:76 Redundant call of conversion method.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/AdminPanelScreen.kt:71:13 'fun ScrollableTabRow(selectedTabIndex: Int, modifier: Modifier = ..., containerColor: Color = ..., contentColor: Color = ..., edgePadding: Dp = ..., indicator: ComposableFunction1<List<TabPosition>, Unit> = ..., divider: ComposableFunction0<Unit> = ..., tabs: ComposableFunction0<Unit>): Unit' is deprecated. Replaced with PrimaryScrollableTabRow and SecondaryScrollableTabRow tab variants.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/ChannelPickerScreen.kt:50:62 'fun <reified VM : ViewModel> hiltViewModel(viewModelStoreOwner: ViewModelStoreOwner = ..., key: String? = ...): VM' is deprecated. Moved to package: androidx.hilt.lifecycle.viewmodel.compose.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/LoginScreen.kt:79:62 'fun <reified VM : ViewModel> hiltViewModel(viewModelStoreOwner: ViewModelStoreOwner = ..., key: String? = ...): VM' is deprecated. Moved to package: androidx.hilt.lifecycle.viewmodel.compose.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/LoginScreen.kt:231:74 'static field REQUESTED_WITH_HEADER_ALLOW_LIST: String' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/LoginScreen.kt:234:43 'static fun setRequestedWithHeaderOriginAllowList(p0: WebSettings, p1: (Mutable)Set<String!>): Unit' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/YouTubeBrowseScreen.kt:119:13 'when' is exhaustive so 'else' is redundant here.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/YouTubeBrowseScreen.kt:174:33 'when' is exhaustive so 'else' is redundant here.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/artist/ArtistScreen.kt:603:74 Unnecessary safe call on a non-null receiver of type 'ArtistPage'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/artist/ArtistScreen.kt:815:65 Unnecessary safe call on a non-null receiver of type 'ArtistPage'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/artist/ArtistScreen.kt:816:69 Unnecessary safe call on a non-null receiver of type 'ArtistPage'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/library/LocalSongsScreen.kt:73:37 'fun <reified VM : ViewModel> hiltViewModel(viewModelStoreOwner: ViewModelStoreOwner = ..., key: String? = ...): VM' is deprecated. Moved to package: androidx.hilt.lifecycle.viewmodel.compose.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/playlist/CachePlaylistScreen.kt:642:76 Elvis operator (?:) always returns the left operand of non-nullable type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/search/LocalSearchScreen.kt:126:13 'when' is exhaustive so 'else' is redundant here.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/search/suggestions/AppleMusicScraper.kt:33:30 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/AccountSettingsScreen.kt:153:17 Redundant creation of Json format. Creating instances for each usage can be slow.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/AccountSettingsScreen.kt:251:72 Unnecessary safe call on a non-null receiver of type 'SpotifySession'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/AccountSettingsScreen.kt:254:73 Unnecessary safe call on a non-null receiver of type 'SpotifySession'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/AccountSettingsScreen.kt:267:86 Unnecessary safe call on a non-null receiver of type 'SpotifySession'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/AccountSettingsScreen.kt:666:33 Redundant creation of Json format. Creating instances for each usage can be slow.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/AppearanceSettings.kt:579:29 'when' is exhaustive so 'else' is redundant here.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/FontSelectionScreen.kt:140:17 'when' is exhaustive so 'else' is redundant here.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/ListenBrainzManager.kt:67:42 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/ListenBrainzManager.kt:131:42 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/LocalFoldersSettingsScreen.kt:85:42 'fun <reified VM : ViewModel> hiltViewModel(viewModelStoreOwner: ViewModelStoreOwner = ..., key: String? = ...): VM' is deprecated. Moved to package: androidx.hilt.lifecycle.viewmodel.compose.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/ModuleDetailScreen.kt:219:26 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes ExposedDropdownMenuAnchorType and enabled parameters.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/ModuleDetailScreen.kt:263:26 'fun Modifier.menuAnchor(): Modifier' is deprecated. Use overload that takes ExposedDropdownMenuAnchorType and enabled parameters.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/ScanMusicScreen.kt:57:37 'fun <reified VM : ViewModel> hiltViewModel(viewModelStoreOwner: ViewModelStoreOwner = ..., key: String? = ...): VM' is deprecated. Moved to package: androidx.hilt.lifecycle.viewmodel.compose.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/SpotifyScreen.kt:75:41 'fun <reified VM : ViewModel> hiltViewModel(viewModelStoreOwner: ViewModelStoreOwner = ..., key: String? = ...): VM' is deprecated. Moved to package: androidx.hilt.lifecycle.viewmodel.compose.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/SuggestionScreen.kt:131:13 'fun TabRow(selectedTabIndex: Int, modifier: Modifier = ..., containerColor: Color = ..., contentColor: Color = ..., indicator: ComposableFunction1<List<TabPosition>, Unit> = ..., divider: ComposableFunction0<Unit> = ..., tabs: ComposableFunction0<Unit>): Unit' is deprecated. Replaced with PrimaryTabRow and SecondaryTabRow.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/SuggestionScreen.kt:172:53 'val outlinedButtonBorder: BorderStroke' is deprecated. Please use the version that takes an `enabled` param to get the `BorderStroke` with the correct opacity.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/settings/SuggestionScreen.kt:185:53 'val outlinedButtonBorder: BorderStroke' is deprecated. Please use the version that takes an `enabled` param to get the `BorderStroke` with the correct opacity.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/screens/wrapped/pages/WrappedIntro.kt:123:38 Unnecessary safe call on a non-null receiver of type 'WrappedManager'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/theme/Theme.kt:111:17 'when' is exhaustive so 'else' is redundant here.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/utils/ShowMediaInfo.kt:230:58 Redundant call of conversion method.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/utils/ShowMediaInfo.kt:236:53 Redundant call of conversion method.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/ui/utils/ShowMediaInfo.kt:251:82 Redundant call of conversion method.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/BotDetectionMitigator.kt:109:46 Unnecessary safe call on a non-null receiver of type 'Context'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/ComposeToImage.kt:118:52 Redundant call of conversion method.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/LocalAudioScanner.kt:144:25 Condition is always 'true'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/SongExporter.kt:332:36 'static field INFO_OUTPUT_BUFFERS_CHANGED: Int' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/SongExporter.kt:381:65 'static field INFO_OUTPUT_BUFFERS_CHANGED: Int' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/UniversalPlaylistImporter.kt:96:26 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:378:81 Condition is always 'true'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:396:45 Condition is always 'true'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:414:75 Unnecessary safe call on a non-null receiver of type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:493:85 Unnecessary safe call on a non-null receiver of type 'Int'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:1026:13 Condition is always 'false'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:1167:93 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:1181:57 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:1218:45 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:1234:97 Unnecessary non-null assertion (!!) on a non-null receiver of type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/YTPlayerUtils.kt:1307:135 Unnecessary safe call on a non-null receiver of type 'String'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/cipher/PlayerJsFetcher.kt:137:33 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/cipher/PlayerJsFetcher.kt:155:29 Unnecessary safe call on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/utils/potoken/PoTokenWebView.kt:296:34 Unnecessary non-null assertion (!!) on a non-null receiver of type 'ResponseBody'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/viewmodels/ArtistViewModel.kt:117:52 Unnecessary safe call on a non-null receiver of type 'ArtistItem'.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/viewmodels/LocalSearchViewModel.kt:46:25 This declaration needs opt-in. Its usage should be marked with '@kotlinx.coroutines.ExperimentalCoroutinesApi' or '@OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)'
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/AudioDeviceBottomSheet.kt:525:88 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/AudioDeviceBottomSheet.kt:737:74 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/AudioDeviceBottomSheet.kt:737:101 'val Icons.Filled.VolumeOff: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeOff.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/AudioDeviceBottomSheet.kt:794:13 'when' is exhaustive so 'else' is redundant here.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/AudioDeviceBottomSheet.kt:1134:52 'val Icons.Filled.VolumeUp: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Filled.VolumeUp.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/BluetoothUtils.kt:38:42 'var isBluetoothA2dpOn: Boolean' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/BluetoothUtils.kt:38:76 'var isBluetoothScoOn: Boolean' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/changelog/changelogscreen.kt:153:75 Java type mismatch: inferred type is 'Nothing?', but 'String' was expected.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/changelog/changelogscreen.kt:154:73 Java type mismatch: inferred type is 'Nothing?', but 'String' was expected.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/changelog/changelogscreen.kt:155:74 Java type mismatch: inferred type is 'Nothing?', but 'String' was expected.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/changelog/changelogscreen.kt:432:49 'fun ClickableText(text: AnnotatedString, modifier: Modifier = ..., style: TextStyle = ..., softWrap: Boolean = ..., overflow: TextOverflow = ..., maxLines: Int = ..., onTextLayout: (TextLayoutResult) -> Unit = ..., onClick: (Int) -> Unit): Unit' is deprecated. Use Text or BasicText and pass an AnnotatedString that contains a LinkAnnotation. Check LinkAnnotation's documentation for more details and samples.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/changelog/changelogscreen.kt:436:75 'static fun startActivity(p0: Context, p1: Intent, p2: Bundle?): Unit' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/changelog/changelogscreen.kt:535:50 Java type mismatch: inferred type is 'Nothing?', but 'String' was expected.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/changelog/changelogscreen.kt:536:62 Java type mismatch: inferred type is 'Nothing?', but 'String' was expected.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/changelog/changelogscreen.kt:537:54 Java type mismatch: inferred type is 'Nothing?', but 'String' was expected.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/commitscreen/commitscreen.kt:133:72 Java type mismatch: inferred type is 'Nothing?', but 'String' was expected.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/commitscreen/commitscreen.kt:136:77 Java type mismatch: inferred type is 'Nothing?', but 'String' was expected.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/commitscreen/commitscreen.kt:223:51 'static fun startActivity(p0: Context, p1: Intent, p2: Bundle?): Unit' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/updater/vivimusicupdater.kt:264:44 'fun largeTopAppBarColors(containerColor: Color = ..., scrolledContainerColor: Color = ..., navigationIconContentColor: Color = ..., titleContentColor: Color = ..., actionIconContentColor: Color = ...): TopAppBarColors' is deprecated. Use topAppBarColors instead.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/updater/vivimusicupdater.kt:332:63 'static fun startActivity(p0: Context, p1: Intent, p2: Bundle?): Unit' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/updater/vivimusicupdater.kt:485:41 'fun ClickableText(text: AnnotatedString, modifier: Modifier = ..., style: TextStyle = ..., softWrap: Boolean = ..., overflow: TextOverflow = ..., maxLines: Int = ..., onTextLayout: (TextLayoutResult) -> Unit = ..., onClick: (Int) -> Unit): Unit' is deprecated. Use Text or BasicText and pass an AnnotatedString that contains a LinkAnnotation. Check LinkAnnotation's documentation for more details and samples.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/updater/vivimusicupdater.kt:489:67 'static fun startActivity(p0: Context, p1: Intent, p2: Bundle?): Unit' is deprecated. Deprecated in Java.
+w: file:///home/runner/work/BeatWave/BeatWave/app/src/main/kotlin/com/beatwave/music/vivimusic/updater/vivimusicupdater.kt:501:72 'fun LinearProgressIndicator(progress: Float, modifier: Modifier = ..., color: Color = ..., trackColor: Color = ..., strokeCap: StrokeCap = ...): Unit' is deprecated. Use the overload that takes `progress` as a lambda.
+
+> Task :app:processUniversalGmsReleaseJavaRes
+> Task :app:mergeUniversalGmsReleaseJavaResource
+> Task :app:compileUniversalGmsReleaseJavaWithJavac
+> Task :app:hiltSyncUniversalGmsRelease
+> Task :app:generateUniversalGmsReleaseLintVitalReportModel
+> Task :app:hiltAggregateDepsUniversalGmsRelease
+
+> Task :app:hiltJavaCompileUniversalGmsRelease
+error: [Hilt] Provided Metadata instance has version 2.4.0, while maximum supported version is 2.3.0. To support newer versions, update the kotlin-metadata-jvm library.: java.lang.IllegalArgumentException: Provided Metadata instance has version 2.4.0, while maximum supported version is 2.3.0. To support newer versions, update the kotlin-metadata-jvm library.
+  	at kotlin.metadata.jvm.internal.JvmReadUtils.throwIfNotCompatible$kotlin_metadata_jvm(JvmReadUtils.kt:95)
+  	at kotlin.metadata.jvm.internal.JvmReadUtils.checkMetadataVersionForRead(JvmReadUtils.kt:84)
+  	at kotlin.metadata.jvm.internal.JvmReadUtils.readMetadataImpl$kotlin_metadata_jvm(JvmReadUtils.kt:46)
+  	at kotlin.metadata.jvm.KotlinClassMetadata$Companion.readStrict(KotlinClassMetadata.kt:398)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.kotlin.KmClassContainer$Companion.createFor(KotlinClassMetadataUtils.kt:184)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.kotlinMetadata_delegate$lambda$0(JavacTypeElement.kt:57)
+  	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.getKotlinMetadata(JavacTypeElement.kt:57)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.<init>(JavacTypeElement.kt:86)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.<init>(JavacTypeElement.kt)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement$DefaultJavacTypeElement.<init>(JavacTypeElement.kt:265)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement$Companion.create(JavacTypeElement.kt:285)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacProcessingEnv.typeElementStore$lambda$2(JavacProcessingEnv.kt:58)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.XTypeElementStore.wrapBackingType(XTypeElementStore.kt:44)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.XTypeElementStore.get(XTypeElementStore.kt:35)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacProcessingEnv.wrapTypeElement(JavacProcessingEnv.kt:165)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacType.typeElement_delegate$lambda$0(JavacType.kt:64)
+  	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacType.getTypeElement(JavacType.kt:61)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacType.getTypeElement(JavacType.kt:38)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.XAnnotation.getTypeElement(XAnnotation.kt:54)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.XAnnotation.getClassName(XAnnotation.kt:63)
+  	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.lambda$hiltAnnotations$0(AndroidEntryPointMetadata.java:177)
+  	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+  	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+  	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+  	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+  	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+  	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+  	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+  	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.hiltAnnotations(AndroidEntryPointMetadata.java:178)
+  	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.of(AndroidEntryPointMetadata.java:219)
+  	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.of(AndroidEntryPointMetadata.java:188)
+  	at dagger.hilt.processor.internal.root.ComponentTreeDepsProcessingStep.generateApplication(ComponentTreeDepsProcessingStep.java:197)
+  	at dagger.hilt.processor.internal.root.ComponentTreeDepsProcessingStep.processComponentTreeDeps(ComponentTreeDepsProcessingStep.java:153)
+  	at dagger.hilt.processor.internal.root.ComponentTreeDepsProcessingStep.postProcess(ComponentTreeDepsProcessingStep.java:83)
+  	at dagger.hilt.processor.internal.BaseProcessingStep.postRoundProcess(BaseProcessingStep.java:97)
+  	at dagger.hilt.processor.internal.JavacBaseProcessingStepProcessor.postRound(JavacBaseProcessingStepProcessor.java:73)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacBasicAnnotationProcessor.process(JavacBasicAnnotationProcessor.kt:76)
+  	at org.gradle.api.internal.tasks.compile.processing.DelegatingProcessor.process(DelegatingProcessor.java:63)
+  	at org.gradle.api.internal.tasks.compile.processing.IsolatingProcessor.process(IsolatingProcessor.java:51)
+  	at org.gradle.api.internal.tasks.compile.processing.DelegatingProcessor.process(DelegatingProcessor.java:63)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor.access$401(TimeTrackingProcessor.java:38)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor$5.create(TimeTrackingProcessor.java:101)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor$5.create(TimeTrackingProcessor.java:98)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor.track(TimeTrackingProcessor.java:119)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor.process(TimeTrackingProcessor.java:98)
+  	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:1021)
+  	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs(JavacProcessingEnvironment.java:937)
+  	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment$Round.run(JavacProcessingEnvironment.java:1265)
+  	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.doProcessing(JavacProcessingEnvironment.java:1380)
+  	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.processAnnotations(JavaCompiler.java:1272)
+  	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:946)
+  	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:104)
+  	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+  	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)
+  	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)
+  	at org.gradle.internal.compiler.java.IncrementalCompileTask.call(IncrementalCompileTask.java:92)
+  	at org.gradle.api.internal.tasks.compile.AnnotationProcessingCompileTask.call(AnnotationProcessingCompileTask.java:94)
+  	at org.gradle.api.internal.tasks.compile.ResourceCleaningCompilationTask.call(ResourceCleaningCompilationTask.java:57)
+  	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:83)
+  	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:50)
+  	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:98)
+  	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
+  	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+  	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:52)
+  	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:38)
+  	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:46)
+  	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:36)
+  	at org.gradle.jvm.toolchain.internal.DefaultToolchainJavaCompiler.execute(DefaultToolchainJavaCompiler.java:57)
+  	at org.gradle.api.tasks.compile.JavaCompile.lambda$createToolchainCompiler$3(JavaCompile.java:206)
+  	at org.gradle.api.internal.tasks.compile.CleaningJavaCompiler.execute(CleaningJavaCompiler.java:53)
+  	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory.lambda$createRebuildAllCompiler$0(IncrementalCompilerFactory.java:55)
+  	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:70)
+  	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:44)
+  	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:66)
+  	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:52)
+  	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:64)
+  	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:48)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+  	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler.execute(CompileJavaBuildOperationReportingCompiler.java:48)
+  	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:224)
+  	at org.gradle.api.tasks.compile.JavaCompile.performIncrementalCompilation(JavaCompile.java:165)
+  	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:150)
+  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+  	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+  	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:45)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+  	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.execute(IncrementalTaskAction.java:26)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:259)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:244)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:227)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:210)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:176)
+  	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:167)
+  	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:47)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:137)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:134)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+  	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:134)
+  	at org.gradle.internal.execution.steps.ExecuteStep$Mutable.execute(ExecuteStep.java:80)
+  	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+  	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+  	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:51)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:29)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:67)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:39)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:42)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:24)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:39)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:28)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:76)
+  	at org.gradle.internal.Either$Right.fold(Either.java:176)
+  	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:74)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:49)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:46)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:35)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+  	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+  	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:70)
+  	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:32)
+  	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:69)
+  	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:37)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:63)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:34)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:79)
+  	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:65)
+  	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:99)
+  	at org.gradle.internal.execution.steps.ValidateStep$Mutable.execute(ValidateStep.java:65)
+  	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.executeMutable(CaptureMutableStateBeforeExecutionStep.java:86)
+  	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:65)
+  	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:45)
+  	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeWithNonEmptySources(SkipEmptyMutableWorkStep.java:210)
+  	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:90)
+  	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:53)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:36)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:23)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:77)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:43)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$executeMutable$0(AssignMutableWorkspaceStep.java:34)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:305)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:30)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:21)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+  	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:56)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:38)
+  	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:68)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+  	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+  	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+  	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+  	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+  	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+  	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+  	at org.gradle.execution.plan.DefaultNodeExecutor.executeLocalTaskNode(DefaultNodeExecutor.java:55)
+  	at org.gradle.execution.plan.DefaultNodeExecutor.execute(DefaultNodeExecutor.java:34)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:339)
+  	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:339)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:328)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+  	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+  	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+  	at java.base/java.lang.Thread.run(Thread.java:1583)
+  
+  [1;31m[Hilt] Processing did not complete. See error above for details.[0m
+1 error
+
+> Task :app:hiltJavaCompileUniversalGmsRelease FAILED
+> Task :app:lintVitalAnalyzeUniversalGmsRelease
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_3-1793917579095.json
+
+[Incubating] Problems report is available at: file:///home/runner/work/BeatWave/BeatWave/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:hiltJavaCompileUniversalGmsRelease'.
+> Compilation failed; see the compiler output below.
+  error: [Hilt] Provided Metadata instance has version 2.4.0, while maximum supported version is 2.3.0. To support newer versions, update the kotlin-metadata-jvm library.: java.lang.IllegalArgumentException: Provided Metadata instance has version 2.4.0, while maximum supported version is 2.3.0. To support newer versions, update the kotlin-metadata-jvm library.
+    	at kotlin.metadata.jvm.internal.JvmReadUtils.throwIfNotCompatible$kotlin_metadata_jvm(JvmReadUtils.kt:95)
+    	at kotlin.metadata.jvm.internal.JvmReadUtils.checkMetadataVersionForRead(JvmReadUtils.kt:84)
+    	at kotlin.metadata.jvm.internal.JvmReadUtils.readMetadataImpl$kotlin_metadata_jvm(JvmReadUtils.kt:46)
+    	at kotlin.metadata.jvm.KotlinClassMetadata$Companion.readStrict(KotlinClassMetadata.kt:398)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.kotlin.KmClassContainer$Companion.createFor(KotlinClassMetadataUtils.kt:184)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.kotlinMetadata_delegate$lambda$0(JavacTypeElement.kt:57)
+    	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.getKotlinMetadata(JavacTypeElement.kt:57)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.<init>(JavacTypeElement.kt:86)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.<init>(JavacTypeElement.kt)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement$DefaultJavacTypeElement.<init>(JavacTypeElement.kt:265)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement$Companion.create(JavacTypeElement.kt:285)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacProcessingEnv.typeElementStore$lambda$2(JavacProcessingEnv.kt:58)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.XTypeElementStore.wrapBackingType(XTypeElementStore.kt:44)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.XTypeElementStore.get(XTypeElementStore.kt:35)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacProcessingEnv.wrapTypeElement(JavacProcessingEnv.kt:165)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacType.typeElement_delegate$lambda$0(JavacType.kt:64)
+    	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacType.getTypeElement(JavacType.kt:61)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacType.getTypeElement(JavacType.kt:38)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.XAnnotation.getTypeElement(XAnnotation.kt:54)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.XAnnotation.getClassName(XAnnotation.kt:63)
+    	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.lambda$hiltAnnotations$0(AndroidEntryPointMetadata.java:177)
+    	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+    	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.hiltAnnotations(AndroidEntryPointMetadata.java:178)
+    	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.of(AndroidEntryPointMetadata.java:219)
+    	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.of(AndroidEntryPointMetadata.java:188)
+    	at dagger.hilt.processor.internal.root.ComponentTreeDepsProcessingStep.generateApplication(ComponentTreeDepsProcessingStep.java:197)
+    	at dagger.hilt.processor.internal.root.ComponentTreeDepsProcessingStep.processComponentTreeDeps(ComponentTreeDepsProcessingStep.java:153)
+    	at dagger.hilt.processor.internal.root.ComponentTreeDepsProcessingStep.postProcess(ComponentTreeDepsProcessingStep.java:83)
+    	at dagger.hilt.processor.internal.BaseProcessingStep.postRoundProcess(BaseProcessingStep.java:97)
+    	at dagger.hilt.processor.internal.JavacBaseProcessingStepProcessor.postRound(JavacBaseProcessingStepProcessor.java:73)
+    	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacBasicAnnotationProcessor.process(JavacBasicAnnotationProcessor.kt:76)
+    	at org.gradle.api.internal.tasks.compile.processing.DelegatingProcessor.process(DelegatingProcessor.java:63)
+    	at org.gradle.api.internal.tasks.compile.processing.IsolatingProcessor.process(IsolatingProcessor.java:51)
+    	at org.gradle.api.internal.tasks.compile.processing.DelegatingProcessor.process(DelegatingProcessor.java:63)
+    	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor.access$401(TimeTrackingProcessor.java:38)
+    	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor$5.create(TimeTrackingProcessor.java:101)
+    	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor$5.create(TimeTrackingProcessor.java:98)
+    	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor.track(TimeTrackingProcessor.java:119)
+    	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor.process(TimeTrackingProcessor.java:98)
+    	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:1021)
+    	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs(JavacProcessingEnvironment.java:937)
+    	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment$Round.run(JavacProcessingEnvironment.java:1265)
+    	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.doProcessing(JavacProcessingEnvironment.java:1380)
+    	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.processAnnotations(JavaCompiler.java:1272)
+    	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:946)
+    	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:104)
+    	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+    	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)
+    	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)
+    	at org.gradle.internal.compiler.java.IncrementalCompileTask.call(IncrementalCompileTask.java:92)
+    	at org.gradle.api.internal.tasks.compile.AnnotationProcessingCompileTask.call(AnnotationProcessingCompileTask.java:94)
+    	at org.gradle.api.internal.tasks.compile.ResourceCleaningCompilationTask.call(ResourceCleaningCompilationTask.java:57)
+    	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:83)
+    	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:50)
+    	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:98)
+    	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
+    	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+    	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:52)
+    	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:38)
+    	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:46)
+    	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:36)
+    	at org.gradle.jvm.toolchain.internal.DefaultToolchainJavaCompiler.execute(DefaultToolchainJavaCompiler.java:57)
+    	at org.gradle.api.tasks.compile.JavaCompile.lambda$createToolchainCompiler$3(JavaCompile.java:206)
+    	at org.gradle.api.internal.tasks.compile.CleaningJavaCompiler.execute(CleaningJavaCompiler.java:53)
+    	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory.lambda$createRebuildAllCompiler$0(IncrementalCompilerFactory.java:55)
+    	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:70)
+    	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:44)
+    	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:66)
+    	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:52)
+    	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:64)
+    	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:48)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+    	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler.execute(CompileJavaBuildOperationReportingCompiler.java:48)
+    	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:224)
+    	at org.gradle.api.tasks.compile.JavaCompile.performIncrementalCompilation(JavaCompile.java:165)
+    	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:150)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+    	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:45)
+    	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+    	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.execute(IncrementalTaskAction.java:26)
+    	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:259)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:244)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:227)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:210)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:176)
+    	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:167)
+    	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:47)
+    	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:137)
+    	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:134)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+    	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:134)
+    	at org.gradle.internal.execution.steps.ExecuteStep$Mutable.execute(ExecuteStep.java:80)
+    	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+    	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+    	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+    	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:51)
+    	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:29)
+    	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:67)
+    	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:39)
+    	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+    	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:42)
+    	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:24)
+    	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+    	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+    	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:39)
+    	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:28)
+    	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+    	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+    	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:76)
+    	at org.gradle.internal.Either$Right.fold(Either.java:176)
+    	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+    	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:74)
+    	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:49)
+    	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:46)
+    	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:35)
+    	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+    	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+    	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+    	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+    	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+    	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+    	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+    	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+    	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:70)
+    	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:32)
+    	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:69)
+    	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:37)
+    	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:63)
+    	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:34)
+    	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+    	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:79)
+    	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:65)
+    	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:99)
+    	at org.gradle.internal.execution.steps.ValidateStep$Mutable.execute(ValidateStep.java:65)
+    	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.executeMutable(CaptureMutableStateBeforeExecutionStep.java:86)
+    	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:65)
+    	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:45)
+    	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeWithNonEmptySources(SkipEmptyMutableWorkStep.java:210)
+    	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:90)
+    	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:53)
+    	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+    	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+    	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:36)
+    	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:23)
+    	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+    	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:77)
+    	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:43)
+    	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+    	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$executeMutable$0(AssignMutableWorkspaceStep.java:34)
+    	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:305)
+    	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:30)
+    	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:21)
+    	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+    	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+    	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+    	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+    	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+    	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+    	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+    	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+    	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+    	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:56)
+    	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:38)
+    	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:68)
+    	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+    	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+    	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+    	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+    	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+    	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+    	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+    	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+    	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+    	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+    	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+    	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+    	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+    	at org.gradle.execution.plan.DefaultNodeExecutor.executeLocalTaskNode(DefaultNodeExecutor.java:55)
+    	at org.gradle.execution.plan.DefaultNodeExecutor.execute(DefaultNodeExecutor.java:34)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:339)
+    	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:339)
+    	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:328)
+    	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+    	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+    	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+    	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+    	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+    	at java.base/java.lang.Thread.run(Thread.java:1583)
+    
+    [1;31m[Hilt] Processing did not complete. See error above for details.[0m
+  1 error
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:hiltJavaCompileUniversalGmsRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:135)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:288)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:133)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+	at org.gradle.execution.plan.DefaultNodeExecutor.executeLocalTaskNode(DefaultNodeExecutor.java:55)
+	at org.gradle.execution.plan.DefaultNodeExecutor.execute(DefaultNodeExecutor.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:339)
+	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:339)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:328)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler output below.
+error: [Hilt] Provided Metadata instance has version 2.4.0, while maximum supported version is 2.3.0. To support newer versions, update the kotlin-metadata-jvm library.: java.lang.IllegalArgumentException: Provided Metadata instance has version 2.4.0, while maximum supported version is 2.3.0. To support newer versions, update the kotlin-metadata-jvm library.
+  	at kotlin.metadata.jvm.internal.JvmReadUtils.throwIfNotCompatible$kotlin_metadata_jvm(JvmReadUtils.kt:95)
+  	at kotlin.metadata.jvm.internal.JvmReadUtils.checkMetadataVersionForRead(JvmReadUtils.kt:84)
+  	at kotlin.metadata.jvm.internal.JvmReadUtils.readMetadataImpl$kotlin_metadata_jvm(JvmReadUtils.kt:46)
+  	at kotlin.metadata.jvm.KotlinClassMetadata$Companion.readStrict(KotlinClassMetadata.kt:398)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.kotlin.KmClassContainer$Companion.createFor(KotlinClassMetadataUtils.kt:184)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.kotlinMetadata_delegate$lambda$0(JavacTypeElement.kt:57)
+  	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.getKotlinMetadata(JavacTypeElement.kt:57)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.<init>(JavacTypeElement.kt:86)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement.<init>(JavacTypeElement.kt)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement$DefaultJavacTypeElement.<init>(JavacTypeElement.kt:265)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacTypeElement$Companion.create(JavacTypeElement.kt:285)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacProcessingEnv.typeElementStore$lambda$2(JavacProcessingEnv.kt:58)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.XTypeElementStore.wrapBackingType(XTypeElementStore.kt:44)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.XTypeElementStore.get(XTypeElementStore.kt:35)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacProcessingEnv.wrapTypeElement(JavacProcessingEnv.kt:165)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacType.typeElement_delegate$lambda$0(JavacType.kt:64)
+  	at kotlin.SynchronizedLazyImpl.getValue(LazyJVM.kt:86)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacType.getTypeElement(JavacType.kt:61)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacType.getTypeElement(JavacType.kt:38)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.XAnnotation.getTypeElement(XAnnotation.kt:54)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.XAnnotation.getClassName(XAnnotation.kt:63)
+  	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.lambda$hiltAnnotations$0(AndroidEntryPointMetadata.java:177)
+  	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+  	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+  	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+  	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+  	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+  	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+  	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+  	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.hiltAnnotations(AndroidEntryPointMetadata.java:178)
+  	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.of(AndroidEntryPointMetadata.java:219)
+  	at dagger.hilt.android.processor.internal.androidentrypoint.AndroidEntryPointMetadata.of(AndroidEntryPointMetadata.java:188)
+  	at dagger.hilt.processor.internal.root.ComponentTreeDepsProcessingStep.generateApplication(ComponentTreeDepsProcessingStep.java:197)
+  	at dagger.hilt.processor.internal.root.ComponentTreeDepsProcessingStep.processComponentTreeDeps(ComponentTreeDepsProcessingStep.java:153)
+  	at dagger.hilt.processor.internal.root.ComponentTreeDepsProcessingStep.postProcess(ComponentTreeDepsProcessingStep.java:83)
+  	at dagger.hilt.processor.internal.BaseProcessingStep.postRoundProcess(BaseProcessingStep.java:97)
+  	at dagger.hilt.processor.internal.JavacBaseProcessingStepProcessor.postRound(JavacBaseProcessingStepProcessor.java:73)
+  	at dagger.spi.internal.shaded.androidx.room3.compiler.processing.javac.JavacBasicAnnotationProcessor.process(JavacBasicAnnotationProcessor.kt:76)
+  	at org.gradle.api.internal.tasks.compile.processing.DelegatingProcessor.process(DelegatingProcessor.java:63)
+  	at org.gradle.api.internal.tasks.compile.processing.IsolatingProcessor.process(IsolatingProcessor.java:51)
+  	at org.gradle.api.internal.tasks.compile.processing.DelegatingProcessor.process(DelegatingProcessor.java:63)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor.access$401(TimeTrackingProcessor.java:38)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor$5.create(TimeTrackingProcessor.java:101)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor$5.create(TimeTrackingProcessor.java:98)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor.track(TimeTrackingProcessor.java:119)
+  	at org.gradle.api.internal.tasks.compile.processing.TimeTrackingProcessor.process(TimeTrackingProcessor.java:98)
+  	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:1021)
+  	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs(JavacProcessingEnvironment.java:937)
+  	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment$Round.run(JavacProcessingEnvironment.java:1265)
+  	at jdk.compiler/com.sun.tools.javac.processing.JavacProcessingEnvironment.doProcessing(JavacProcessingEnvironment.java:1380)
+  	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.processAnnotations(JavaCompiler.java:1272)
+  	at jdk.compiler/com.sun.tools.javac.main.JavaCompiler.compile(JavaCompiler.java:946)
+  	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.lambda$doCall$0(JavacTaskImpl.java:104)
+  	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.invocationHelper(JavacTaskImpl.java:152)
+  	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.doCall(JavacTaskImpl.java:100)
+  	at jdk.compiler/com.sun.tools.javac.api.JavacTaskImpl.call(JavacTaskImpl.java:94)
+  	at org.gradle.internal.compiler.java.IncrementalCompileTask.call(IncrementalCompileTask.java:92)
+  	at org.gradle.api.internal.tasks.compile.AnnotationProcessingCompileTask.call(AnnotationProcessingCompileTask.java:94)
+  	at org.gradle.api.internal.tasks.compile.ResourceCleaningCompilationTask.call(ResourceCleaningCompilationTask.java:57)
+  	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:83)
+  	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:50)
+  	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:98)
+  	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
+  	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+  	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:52)
+  	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:38)
+  	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:46)
+  	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:36)
+  	at org.gradle.jvm.toolchain.internal.DefaultToolchainJavaCompiler.execute(DefaultToolchainJavaCompiler.java:57)
+  	at org.gradle.api.tasks.compile.JavaCompile.lambda$createToolchainCompiler$3(JavaCompile.java:206)
+  	at org.gradle.api.internal.tasks.compile.CleaningJavaCompiler.execute(CleaningJavaCompiler.java:53)
+  	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory.lambda$createRebuildAllCompiler$0(IncrementalCompilerFactory.java:55)
+  	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:70)
+  	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:44)
+  	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:66)
+  	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:52)
+  	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:64)
+  	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:48)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+  	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler.execute(CompileJavaBuildOperationReportingCompiler.java:48)
+  	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:224)
+  	at org.gradle.api.tasks.compile.JavaCompile.performIncrementalCompilation(JavaCompile.java:165)
+  	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:150)
+  	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+  	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+  	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+  	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:45)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+  	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.execute(IncrementalTaskAction.java:26)
+  	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:259)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:244)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:227)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:210)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:176)
+  	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:167)
+  	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:47)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:137)
+  	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:134)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+  	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:134)
+  	at org.gradle.internal.execution.steps.ExecuteStep$Mutable.execute(ExecuteStep.java:80)
+  	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+  	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+  	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:51)
+  	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:29)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:67)
+  	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:39)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:42)
+  	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:24)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+  	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:39)
+  	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:28)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:76)
+  	at org.gradle.internal.Either$Right.fold(Either.java:176)
+  	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:74)
+  	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:49)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:46)
+  	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:35)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+  	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+  	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+  	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:70)
+  	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:32)
+  	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:69)
+  	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:37)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:63)
+  	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:34)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:79)
+  	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:65)
+  	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:99)
+  	at org.gradle.internal.execution.steps.ValidateStep$Mutable.execute(ValidateStep.java:65)
+  	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.executeMutable(CaptureMutableStateBeforeExecutionStep.java:86)
+  	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:65)
+  	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:45)
+  	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeWithNonEmptySources(SkipEmptyMutableWorkStep.java:210)
+  	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:90)
+  	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:53)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:36)
+  	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:23)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:77)
+  	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:43)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$executeMutable$0(AssignMutableWorkspaceStep.java:34)
+  	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:305)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:30)
+  	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:21)
+  	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+  	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+  	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+  	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+  	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:56)
+  	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:38)
+  	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:68)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+  	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+  	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+  	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+  	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+  	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+  	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+  	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+  	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+  	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+  	at org.gradle.execution.plan.DefaultNodeExecutor.executeLocalTaskNode(DefaultNodeExecutor.java:55)
+  	at org.gradle.execution.plan.DefaultNodeExecutor.execute(DefaultNodeExecutor.java:34)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:339)
+  	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:339)
+  	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:328)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+  	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+  	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+  	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+  	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+  	at java.base/java.lang.Thread.run(Thread.java:1583)
+  
+  [1;31m[Hilt] Processing did not complete. See error above for details.[0m
+1 error
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:89)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:50)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:98)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.AnnotationProcessorDiscoveringCompiler.execute(AnnotationProcessorDiscoveringCompiler.java:38)
+	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:46)
+	at org.gradle.api.internal.tasks.compile.ModuleApplicationNameWritingCompiler.execute(ModuleApplicationNameWritingCompiler.java:36)
+	at org.gradle.jvm.toolchain.internal.DefaultToolchainJavaCompiler.execute(DefaultToolchainJavaCompiler.java:57)
+	at org.gradle.api.tasks.compile.JavaCompile.lambda$createToolchainCompiler$3(JavaCompile.java:206)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompiler.execute(CleaningJavaCompiler.java:53)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalCompilerFactory.lambda$createRebuildAllCompiler$0(IncrementalCompilerFactory.java:55)
+	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:70)
+	at org.gradle.api.internal.tasks.compile.incremental.SelectiveCompiler.execute(SelectiveCompiler.java:44)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:66)
+	at org.gradle.api.internal.tasks.compile.incremental.IncrementalResultStoringCompiler.execute(IncrementalResultStoringCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:64)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler$1.call(CompileJavaBuildOperationReportingCompiler.java:48)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.api.internal.tasks.compile.CompileJavaBuildOperationReportingCompiler.execute(CompileJavaBuildOperationReportingCompiler.java:48)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:224)
+	at org.gradle.api.tasks.compile.JavaCompile.performIncrementalCompilation(JavaCompile.java:165)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:150)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:45)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.execute(IncrementalTaskAction.java:26)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:259)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:244)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:227)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:210)
+	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:176)
+	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:167)
+	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:47)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:137)
+	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:134)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:134)
+	at org.gradle.internal.execution.steps.ExecuteStep$Mutable.execute(ExecuteStep.java:80)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:51)
+	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:29)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:67)
+	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.executeMutable(RemovePreviousOutputsStep.java:39)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:42)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:39)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.executeMutable(ResolveInputChangesStep.java:28)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:76)
+	at org.gradle.internal.Either$Right.fold(Either.java:176)
+	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:74)
+	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:49)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:46)
+	at org.gradle.internal.execution.steps.StoreExecutionStateStep.executeMutable(StoreExecutionStateStep.java:35)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:70)
+	at org.gradle.internal.execution.steps.ResolveMutableCachingStateStep.executeDelegate(ResolveMutableCachingStateStep.java:32)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:69)
+	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:37)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:63)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.executeMutable(ResolveChangesStep.java:34)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:79)
+	at org.gradle.internal.execution.steps.ValidateStep$Mutable.executeDelegate(ValidateStep.java:65)
+	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:99)
+	at org.gradle.internal.execution.steps.ValidateStep$Mutable.execute(ValidateStep.java:65)
+	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.executeMutable(CaptureMutableStateBeforeExecutionStep.java:86)
+	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:65)
+	at org.gradle.internal.execution.steps.CaptureMutableStateBeforeExecutionStep.execute(CaptureMutableStateBeforeExecutionStep.java:45)
+	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeWithNonEmptySources(SkipEmptyMutableWorkStep.java:210)
+	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:90)
+	at org.gradle.internal.execution.steps.SkipEmptyMutableWorkStep.executeMutable(SkipEmptyMutableWorkStep.java:53)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:36)
+	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.executeMutable(LoadPreviousExecutionStateStep.java:23)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:77)
+	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.executeMutable(HandleStaleOutputsStep.java:43)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$executeMutable$0(AssignMutableWorkspaceStep.java:34)
+	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:305)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:30)
+	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.executeMutable(AssignMutableWorkspaceStep.java:21)
+	at org.gradle.internal.execution.steps.MutableStep.execute(MutableStep.java:26)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:56)
+	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:38)
+	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:68)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+	... 30 more
+
+
+BUILD FAILED in 11m 14s
+613 actionable tasks: 613 executed
+Configuration cache entry stored.
